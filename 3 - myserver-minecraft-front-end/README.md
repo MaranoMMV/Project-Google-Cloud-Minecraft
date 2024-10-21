@@ -29,11 +29,20 @@ O projeto foi realizado com o angular [Angular CLI](https://github.com/angular/a
 
 
 
+
+Na pasta services existe o campo url, coloque a url do servidor que pode estar na google cloud ou de forma remota, coloque entre as aspas simples : 
+```
+  url: string = ''
+```
+
+
 A primeira tela é de login, que para você acessar as outra telas como o painel de controle e o acesso de outros jogadores, você precisa antes criar o login no back-end. recomenda-se ler o readme do back-end para criar esse acesso.
 
 
 
 A primeira tela após o login você ja vai ser direcionado para a tela do painel, se tudo ocorreu bem no back-end você verá o status da instancia. se depois dos dois pontos ":" do status em 'Status do servidor : ' for fazio, é por que o site ou o back-end não conseguiu se conectar ao servidor da google cloud OU o front-end não está conseguindo se conectar o back-end.
+
+
 
 
 

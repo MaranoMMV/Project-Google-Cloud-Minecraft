@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class JogadoresService {
-  url: string = 'https://thebuilder-teste2.uc.r.appspot.com/api/usuarios';
+  url: string = '';
 
   constructor(private http: HttpClient) { }
 

@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class PainelService {
-  url: string = 'https://thebuilder-teste2.uc.r.appspot.com/api/vms'
+  url: string = ''
 
   constructor(private http: HttpClient) { }
 

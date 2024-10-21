@@ -8,7 +8,7 @@ import { LoginResponse } from '../login/LoginResponse';
 })
 
 export class LoginService {
-  apiUrl: string = "https://thebuilder-teste2.uc.r.appspot.com/auth";
+  apiUrl: string = "";
 
   constructor(private httpClient: HttpClient) { }
 
