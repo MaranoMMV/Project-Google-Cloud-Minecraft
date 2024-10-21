@@ -13,22 +13,22 @@ No Eclipse (SpringTools) vamos importar o projeto que foi baixado. clique em FIL
 
 Após isso vai abrir a caixinha e você seleciona o maven e depois clique em Existing Maven projects
 
-![alt text](assetsReadme/image-1.png)
+![alt text](assetsReadme/image1.png)
 
 O proximo passo e você selecionar a pasta que está os arquivos, a pasta que está localizada o pom.xml
 
-![alt text](image.png)
+![alt text](assetsReadme/image2.png)
 
 Quando você selecionar a pasta, se tudo ocorreu bem vai aparecer o arquivo do pom.xml Após isso só clicar em 'Finish'
 
-![alt text](image-1.png)
+![alt text](assetsReadme/image3.png)
 
 
 No arquivo em src/main/resources existe um arquivo chamado application.properties. abra ele e siga o passo a passo
 
 
 
-![alt text](image-2.png)
+![alt text](assetsReadme/image4.png)
 
 
 
@@ -39,10 +39,10 @@ em thebuilder.googlecloud.instanceName coloque o nome da instancia que você que
 Se caso você tiver diversos servidores na google cloud, você poderá salvar essas informações em um banco de dados, e puxar cada um em forma de tabela.
 
 
-![alt text](image-3.png)
+![alt text](assetsReadme/image5.png)
 
 Agora vamos configurar o primeiro usuario, com este usuario você conseguirá criar os proximos usuarios.
 
 no arquivo Instantiation você vai configurar o seu usuario para o seu login. abra ele e dentro das aspaz coloque o seu email, seu nome, sua senha **A SENHA DEVE SER ENCRIPTADA ANTES PELO BCRYPT para você conseguir fazer o login**
 
-![alt text](image.png)
+![alt text](assetsReadme/image6.png)
