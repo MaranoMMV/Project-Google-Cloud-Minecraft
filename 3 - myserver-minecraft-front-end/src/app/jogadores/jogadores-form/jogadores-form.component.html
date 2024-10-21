@@ -1,0 +1,54 @@
+
+<br>
+<h1>Criar um novo acesso a um jogador!</h1>
+<br>
+<form [formGroup]="formulario" (ngSubmit)="onSubmit()">
+  @if (jogador?.id) {
+  <mat-form-field disabled="true">
+    <mat-label>ID:</mat-label>
+    <input formControlName="id" matInput placeholder="id" />
+  </mat-form-field>
+  }
+
+  <mat-form-field>
+    <mat-label>Nome:</mat-label>
+    <input
+      formControlName="nome"
+      matInput
+      placeholder="Digite o nome do vendedor(a)"
+    />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Email</mat-label>
+    <input formControlName="email" matInput placeholder="Digite a Email" />
+  </mat-form-field>
+
+  @if (!jogador?.id) {
+    <mat-form-field>
+      <mat-label>Password</mat-label>
+      <input
+        formControlName="password"
+        matInput
+        placeholder="Digite a Password"
+      />
+    </mat-form-field>
+
+  }
+
+  <mat-checkbox formControlName="status">Ativo</mat-checkbox>
+
+  <br />
+  <button type="submit" mat-raised-button color="primary">
+    <i class="fa fa-save"></i> Salvar Cadastro
+  </button>
+
+
+  <!-- <button
+    mat-button
+    color="primary"
+    class="margin-button"
+    (click)="voltarListagem()"
+  >
+    <mat-icon>arrow_back</mat-icon>Voltar
+  </button> -->
+</form>

@@ -1,0 +1,21 @@
+<main>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <section class="form-section">
+        <!-- <img src="/assets/imagens/iconSistem.jpg" width="150px"/> -->
+        <h2>{{ title }}</h2>
+        <ng-content></ng-content>
+        <div class="btn-wrapper">
+            <button
+                    class="btn-primary"
+                    (click)="submit()"
+            >
+                {{ primaryBtnText }}
+            </button>
+        </div>
+    </section>
+    <section class="main-section">
+        <h1 class="medievalsharp-regular">The Builder</h1>
+    </section>
+</main>
